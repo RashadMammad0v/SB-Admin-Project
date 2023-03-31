@@ -1,0 +1,258 @@
+.docu{
+    width: 0px;
+    height: 0px;
+    opacity: 0;
+    overflow: hidden;
+   
+ 
+}
+.docu li{
+    height: 48px;
+    /* margin-top: 3px;
+    margin-left: 3px;
+    margin-right: 9px; */
+    font-size: 15px;
+    color: rgba(73, 71, 72, 0.634);
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid rgb(223, 221, 221);
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.docu li:hover{
+    background-color: rgb(161, 192, 245);
+    
+}
+.docu i{
+    font-size: 20px;
+    margin-left: 10px;
+    margin-right: 20px;
+    color: rgb(8, 112, 216);
+}
+.docu.open{
+    width: 250px;
+    height: 150px;
+   display: flex;
+   flex-direction: column;
+    margin: 10px;
+    background-color: rgb(246, 249, 252);
+    border-radius: 7px;
+    opacity: 1;
+    margin-right:200px ;
+    transition: 0.2s ease;
+    position: absolute;
+    margin-top: -40px;
+    margin-left: -80px;
+
+}
+
+
+.notification{
+    width: 0px;
+    height: 0px;
+    opacity: 0;
+    overflow: hidden;
+}
+.notification.open{
+    position: relative;
+    width: 250px;
+    height: 245px;
+   display: flex;
+   flex-direction: column;
+    margin: 10px;
+    background-color: rgb(246, 249, 252);
+    border-radius: 7px;
+    opacity: 1;
+    margin-right:150px ;
+    transition: 0.2s ease;
+    position: absolute;
+    margin-top: -40px;
+    margin-left: 20px;
+
+}
+
+.notification li{
+    height: 48px;
+    /* margin-top: 3px;
+    margin-left: 3px;
+    margin-right: 9px; */
+    font-size: 15px;
+    color: rgba(12, 11, 11, 0.634);
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid rgb(223, 221, 221);
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.notification li:hover{
+    background-color: rgb(161, 192, 245);
+    
+}
+.notification i{
+    font-size: 20px;
+    margin-left: 10px;
+    margin-right: 20px;
+    color: rgb(239, 131, 22);
+}
+#alert i{
+    font-size: 10px;
+    margin-left: 10px;
+    margin-right: 20px;
+    color: rgb(209, 213, 235);
+}
+#alert {
+    height: 30px;
+    /* margin-top: 3px;
+    margin-left: 3px;
+    margin-right: 9px; */
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.634);
+    background-color: rgb(53, 53, 243);
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid rgb(223, 221, 221);
+    cursor: pointer;
+    overflow: hidden;
+}
+
+
+.messagecc{
+    width: 0px;
+    height: 0px;
+    opacity: 0;
+    overflow: hidden;
+}
+.messagecc.open{
+    position: relative;
+    width: 250px;
+    height: 135px;
+   display: flex;
+   flex-direction: column;
+    margin: 10px;
+    background-color: rgb(246, 249, 252);
+    border-radius: 7px;
+    opacity: 1;
+    margin-right:100px ;
+    transition: 0.2s ease;
+    position: absolute;
+    margin-top: -40px;
+    margin-left: 30px;
+}
+
+.messagecc li{
+    height: 48px;
+    /* margin-top: 3px;
+    margin-left: 3px;
+    margin-right: 9px; */
+    font-size: 15px;
+    color: rgba(12, 11, 11, 0.634);
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid rgb(223, 221, 221);
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.messagecc li:hover{
+    background-color: rgb(161, 192, 245);
+    
+}
+.messagecc i{
+    font-size: 20px;
+    margin-left: 10px;
+    margin-right: 20px;
+    color: rgb(85, 85, 233);
+}
+#mm i{
+    font-size: 10px;
+    margin-left: 10px;
+    margin-right: 20px;
+    color: rgb(209, 213, 235);
+}
+#mm {
+    height: 30px;
+    /* margin-top: 3px;
+    margin-left: 3px;
+    margin-right: 9px; */
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.634);
+    background-color: rgb(53, 53, 243);
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid rgb(223, 221, 221);
+    cursor: pointer;
+    overflow: hidden;
+}
+
+
+.profilecc{
+    width: 0px;
+    height: 0px;
+    opacity: 0;
+    overflow: hidden;
+}
+.profilecc.open{
+    position: relative;
+    width: 250px;
+    height: 135px;
+   display: flex;
+   flex-direction: column;
+    margin: 10px;
+    background-color: rgb(246, 249, 252);
+    border-radius: 7px;
+    opacity: 1;
+    margin-right:10px ;
+    transition: 0.2s ease;
+    position: absolute;
+    margin-top: -40px;
+    margin-left: 40px;
+}
+
+.profilecc li{
+    height: 35px;
+    /* margin-top: 3px;
+    margin-left: 3px;
+    margin-right: 9px; */
+    font-size: 14px;
+    color: rgba(12, 11, 11, 0.634);
+    display: flex;
+    align-items: center;
+    
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.profilecc li:hover{
+    background-color: rgb(161, 192, 245);
+    
+}
+.profilecc i{
+    font-size: 20px;
+    margin-left: 10px;
+    margin-right: 20px;
+    color: rgb(85, 85, 233);
+}
+
+#pp {
+    height: 60px;
+    /* margin-top: 3px;
+    margin-left: 3px;
+    margin-right: 9px; */
+    font-size: 14px;
+    color: rgba(16, 15, 15, 0.634);
+    border-bottom: 1px solid rgb(223, 221, 221);
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid rgb(223, 221, 221);
+    cursor: pointer;
+    overflow: hidden;
+}
+#pp img{
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
